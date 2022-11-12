@@ -7,16 +7,16 @@ def Inicio(request):
     return render(request,'appnew/index.html')
 
 def Cursos(request):
-    return HttpResponse('Estas en el apartado de cursos')
+    return render(request,'appnew/cursos.html')
 
 def Estudiantes(request):
-    return HttpResponse('Estas en el apartado de estudiantes')
+    return render(request, 'appnew/estudiantes.html')
 
 def Profesores(request):
-    return HttpResponse('Estas en el apartado de profesores')
+    return render(request, 'appnew/profesores.html')
 
 def Entregables(request):
-    return HttpResponse('Estas en el apartado de entregables')
+    return render(request, 'appnew/entregables.html')
 
 
 # def listado_cursos(request):

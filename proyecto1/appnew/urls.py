@@ -2,10 +2,10 @@ from django.urls import path
 from appnew.views import *
 
 urlpatterns = [
-    path('inicio/', Inicio),
-    path('estudiantes/', Estudiantes),
-    path('profesores/', Profesores),
-    path('cursos/', Cursos),
-    path('entregables/', Entregables),
+    path('inicio/', Inicio, name='coder-inicio'),
+    path('estudiantes/', Estudiantes, name='coder-estudiantes'),
+    path('profesores/', Profesores, name='coder-profesores'),
+    path('cursos/', Cursos, name='coder-cursos'),
+    path('entregables/', Entregables, name='coder-entregables'),
 
 ]

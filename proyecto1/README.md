@@ -1,3 +1,3 @@
-#Proyecto coder
+<h1> Proyecto coder </h1>
 
-Dearrollado en clase para asi fijar conocimientos.
+<p>Dearrollado en clase para asi fijar conocimientos.</p>
